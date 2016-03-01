@@ -13,3 +13,19 @@ and
     int stream_event(char *access_key, char *bucket_key, char *json);
     
 Both functions return 0 on success or 1 on failure. Libcurl will print out error messages for you.
+
+##Adding to your project
+
+Just add 
+    #include "initial-sate.h"
+    
+to your C code and make sure that your Makefile compiles initial-state.c to initial-state.o, adds that .o file to your final executable, and adds
+    -lcurl
+to the LIBS at compile time.
+    
+
+##License
+
+There is none. This code is free to anyone for anything. Bugs and all. I will not be responsible for failures, pay raises, or world domination as a result of using this code. 
+
+But you can send me money if you want. 
