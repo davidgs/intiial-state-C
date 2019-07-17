@@ -1,4 +1,4 @@
-##[Initial State](http://initialsate.com) C-Library
+## [Initial State](http://initialsate.com) C-Library
 
 This is a small C-Library to allow for bucket creation and data streaming to [Initial State](http://initialstate.com)  
 
@@ -14,7 +14,7 @@ and
     
 Both functions return 0 on success or 1 on failure. Libcurl will print out error messages for you.
 
-##Adding to your project
+## Adding to your project
 
 Just add 
     #include "initial-sate.h"
@@ -24,7 +24,7 @@ to your C code and make sure that your Makefile compiles initial-state.c to init
 to the LIBS at compile time.
     
 
-##License
+## License
 
 There is none. This code is free to anyone for anything. Bugs and all. I will not be responsible for failures, pay raises, or world domination as a result of using this code. 
 
